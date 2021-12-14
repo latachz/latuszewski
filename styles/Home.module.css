@@ -5,8 +5,11 @@
   font-size: 1rem;
 }
 
+.nav a {
+  padding: 0 0.5em;
+}
+
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -16,7 +19,12 @@
   background: var(--primary);
 }
 
+.container a:hover {
+  color: var(--secondary);
+} 
+
 .main {
+  height: 100%;
   padding: 5rem 0;
   flex: 1;
   display: flex;
